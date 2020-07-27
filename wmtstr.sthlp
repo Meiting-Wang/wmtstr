@@ -19,8 +19,7 @@
 {help wmtstr##Description:Description}{break}
 {help wmtstr##Options:Options}{break}
 {help wmtstr##Examples:Examples}{break}
-{help wmtstr##Author:Author}{break}
-{help wmtstr##Also_see:Also see}{break}
+{help wmtstr##Author:Author}
 
 
 {* -----------------------------Description------------------------------------ *}{...}
