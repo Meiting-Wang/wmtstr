@@ -1,0 +1,9 @@
+v 1.0.0
+d wmtstr. Perform unique, ascending or descending processing on strings
+d Meiting Wang
+d Institute for Economic and Social Research, Jinan University
+d Guangzhou, China
+d wangmeiting92@gmail.com
+
+f wmtstr.ado
+f wmtstr.sthlp
