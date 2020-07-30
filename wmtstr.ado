@@ -1,8 +1,19 @@
+* Description: perform unique, ascending or descending processing on strings
+* Author: Meiting Wang, doctor, Institute for Economic and Social Research, Jinan University
+* Email: wangmeiting92@gmail.com
+* Created on July 30, 2020
+
+
 program define wmtstr, rclass
 version 16
 syntax anything(id="strings" equalok everything) [, Unique Ascending Descending DIgital]
 
 *程序不合规时的报错
+if ustrregexm(`"`anything'"',`"(")|(')"') {
+	dis "{error:single or double quotes not allowed in strings}"
+	exit
+}
+
 if ~ustrregexm("`anything'", "\s+") {
 	dis "{error:I think your idea is to deal with two or more words}"
 	exit

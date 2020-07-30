@@ -3,6 +3,12 @@
 > 作者：王美庭  
 > Email: wangmeiting92@gmail.com
 
+
+## 更新记录
+
+- 2020年7月30日：增加了不允许所输入字符串中包含单引号或双引号的提示
+
+
 ## 目录
 
 - **一、引言**
@@ -11,9 +17,11 @@
 - **四、实例**
 - **五、命令运行展示**
 
+
 ## 一、引言
 
 个人最近写程序的时候需要去掉字符串中重复的单词，找了一下好像没有这样的命令，于是自己写了一下。同时也扩展了一下功能，增加了排序功能。除此之外，命令运行后的结果会被储存在`r()`中，可用作后续编程使用。
+
 
 ## 二、命令的安装
 
@@ -30,6 +38,7 @@ net install wmtstr, from("https://raw.githubusercontent.com/Meiting-Wang/wmtstr/
 ```stata
 github install Meiting-Wang/wmtstr
 ```
+
 
 ## 三、语法与选项
 
@@ -50,6 +59,7 @@ wmtstr strings [, options]
 
 > - 以上选项均可以缩写，详情可以在安装完命令后`help wmtstr`
 > - 字符的 ASCII 码值可以使用`asciiplot`命令查看，该命令可以使用`ssc install asciiplot`安装。
+
 
 ## 四、实例
 
@@ -77,6 +87,7 @@ return list //展示储存在r()里的值
 
 > 以上所有实例都可以在`wmtstr`帮助文件中直接运行。  
 > ![](https://imgkr.cn-bj.ufileos.com/33dd25d1-8965-4fb9-89c7-d9abb1e5a9aa.png)
+
 
 ## 五、命令运行展示
 
